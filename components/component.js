@@ -6,6 +6,6 @@ export default function Mensagem() {
     if (state == 0) {
         return <button onClick={() => changeState(1)}>Clique Aqui</button>
     } 
-    return <h1>Te amo, minha gatinha! ❤️</h1>
+    return <h1>Full speed ahead, meu mano! Bora continuar estudando pelos nossos sonhos! ❤️</h1>
 
 }
