@@ -1,8 +1,11 @@
+import Mensagem from "../components/component";
+import styles from "../styles.module.css";
+
 function Home() {
-    return <div>
-        <h1>Ristau, eu te amo!</h1>
-        <h2>Você é linda DEMAIS!!!</h2>
-        <p>Obrigado pela compania enquanto estudo! Prometo me esforçar ao máximo.</p>
+    return <div className={styles.wide}>
+        <div className={styles.text}>
+            <Mensagem/>
+        </div>
     </div>
 }
 
