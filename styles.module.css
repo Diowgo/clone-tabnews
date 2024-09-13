@@ -1,8 +1,6 @@
-.text {
+.centro {
   margin: auto;
-  text-align: center;
-}
-
-.wide {
-  width: 100vw;
+  width: 100%;
+  max-width: 720px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
