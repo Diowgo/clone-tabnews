@@ -1,5 +1,6 @@
-function status(request, response) {
-  response.status(200).json({ RESPOSTA: "Tá tudo certo!" });
+async function status(request, response) {
+  const resposta = await fetch("https://diowgo.com.br");
+  status.response(resposta);
 }
 
 export default status;
