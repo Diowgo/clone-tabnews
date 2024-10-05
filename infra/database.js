@@ -8,6 +8,7 @@ async function query(queryObject) {
     port: process.env.POSTGRES_PORT,
     database: process.env.POSTGRES_DB,
   });
+  console.log("pi");
   await client.connect();
   const res = await client.query(queryObject);
   await client.end();

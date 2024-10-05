@@ -1,7 +1,9 @@
-import styles from "../../styles.module.css";
+import RistauMessage from "components/RistauMessage";
 
 export default function Homenagem() {
   return (
-    <h1 className={styles.fonte}>À minha namorada Ristau, eu te amo! ❤️</h1>
+    <>
+      <RistauMessage></RistauMessage>
+    </>
   );
 }
