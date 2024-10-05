@@ -1,12 +1,6 @@
 "use-client";
 import { useState } from "react";
 import styles from "styles.module.css";
-import Heart from "./Heart";
-
-function renderHeart() {
-  alert("pi");
-  return <Heart></Heart>;
-}
 
 export default function RistauMessage() {
   const [screen, setScreen] = useState(0);
@@ -33,10 +27,7 @@ export default function RistauMessage() {
   if (screen === 2) {
     return (
       <div className={`${styles.centro} ${styles.fonte}`}>
-        <h1>Eu... Eu te amo!!!</h1>
-        <button className={styles.botao} onClick={renderHeart}>
-          :O
-        </button>
+        <h1>Eu... Eu te amo!!! ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</h1>
       </div>
     );
   }
